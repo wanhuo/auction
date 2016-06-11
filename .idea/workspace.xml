@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d33c884-223a-406a-a843-e0794cc266e9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/img/bao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/img/t.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/Events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/Events_back.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/start_businessworker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/start_gateway.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/start_register.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/start_timer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/css/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/js/cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Auction/web/js/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Applications/Chat/start.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/Mongo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Config/Redis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GatewayWorker/Config/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Config/Mongo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Config/Redis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/Arrayable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/BaseJson.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/Json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/MyMongo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/MyRedis.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Lib/TomConst.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Service/AuctionService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Service/Base.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Workerman/Service/UserService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fork.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/Chat/Events.php" afterPath="$PROJECT_DIR$/Applications/Chat/Events.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/Chat/Web/index.php" afterPath="$PROJECT_DIR$/Applications/Chat/Web/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/Chat/start_gateway.php" afterPath="$PROJECT_DIR$/Applications/Chat/start_gateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/Chat/start_register.php" afterPath="$PROJECT_DIR$/Applications/Chat/start_register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Applications/Chat/start_web.php" afterPath="$PROJECT_DIR$/Applications/Chat/start_web.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workerman/Protocols/Http/mime.types" afterPath="$PROJECT_DIR$/Workerman/Protocols/Http/mime.types" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Workerman/Worker.php" afterPath="$PROJECT_DIR$/Workerman/Worker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start.php" afterPath="$PROJECT_DIR$/start.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MongoQB" afterPath="$PROJECT_DIR$/MongoQB" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Predis" afterPath="$PROJECT_DIR$/Predis" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="workerman-chat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -289,6 +254,34 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workerman-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workerman-chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Predis" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workerman-chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workerman-chat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MongoQB" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -375,18 +368,18 @@
       <workItem from="1464572290669" duration="9216000" />
       <workItem from="1464587306975" duration="28733000" />
       <workItem from="1464687478587" duration="25497000" />
-      <workItem from="1465650268385" duration="298000" />
+      <workItem from="1465650268385" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200162000" />
+    <option name="totallyTimeSpent" value="200745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1255" height="777" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2522671" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2522671" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
