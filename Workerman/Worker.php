@@ -451,7 +451,7 @@ class Worker
 
         // Pid file.
         if (empty(self::$pidFile)) {
-            self::$pidFile = __DIR__ . "/../" . str_replace('/', '_', self::$_startFile) . ".pid";
+            self::$pidFile = self::$pidFile = __DIR__ . "/../" . str_replace('/', '_', self::$_startFile) . ".pid";
         }
 
         // Log file.
@@ -801,7 +801,7 @@ class Worker
 
     /**
      * Save pid.
-     *
+     * 保存pid去文件
      * @throws Exception
      */
     protected static function saveMasterPid()
@@ -810,6 +810,7 @@ class Worker
         if (false === @file_put_contents(self::$pidFile, self::$_masterPid)) {
             throw new Exception('can not save pid to ' . self::$pidFile);
         }
+
     }
 
     /**
@@ -932,6 +933,11 @@ class Worker
             self::log("Warning: User {$this->user} not exsits");
             return;
         }
+//        if($user_info['name'] =='root' || $user_info['uid' == 0]){
+//            self::log("请不要使用root账户运行");
+//            return;
+//        }
+
         $uid = $user_info['uid'];
         // Get gid.
         if ($this->group) {

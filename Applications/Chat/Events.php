@@ -44,7 +44,7 @@ class Events
         {
             return ;
         }
-        
+
         // 根据类型执行不同的业务
         switch($message_data['type'])
         {
@@ -104,6 +104,7 @@ class Events
                         'content'=>"<b>对你说: </b>".nl2br(htmlspecialchars($message_data['content'])),
                         'time'=>date('Y-m-d H:i:s'),
                     );
+
                     Gateway::sendToClient($message_data['to_client_id'], json_encode($new_message));
                     $new_message['content'] = "<b>你对".htmlspecialchars($message_data['to_client_name'])."说: </b>".nl2br(htmlspecialchars($message_data['content']));
                     return Gateway::sendToCurrentClient(json_encode($new_message));
@@ -117,7 +118,8 @@ class Events
                     'content'=>nl2br(htmlspecialchars($message_data['content'])),
                     'time'=>date('Y-m-d H:i:s'),
                 );
-                return Gateway::sendToGroup($room_id ,json_encode($new_message));
+                
+                Gateway::sendToGroup($room_id ,json_encode($new_message));
         }
    }
    

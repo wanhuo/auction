@@ -24,7 +24,7 @@
        // 当socket连接打开时，输入用户名
        ws.onopen = onopen;
        // 当有消息时根据消息类型显示不同信息
-       ws.onmessage = onmessage; 
+       ws.onmessage = onmessage;
        ws.onclose = function() {
     	  console.log("连接关闭，定时重连");
           connect();
@@ -67,7 +67,7 @@
                 }
                 else
                 {
-                    client_list[data['client_id']] = data['client_name']; 
+                    client_list[data['client_id']] = data['client_name'];
                 }
                 flush_client_list();
                 console.log(data['client_name']+"登录成功");
@@ -87,13 +87,13 @@
     }
 
     // 输入姓名
-    function show_prompt(){  
+    function show_prompt(){
         name = prompt('输入你的名字：', '');
-        if(!name || name=='null'){  
-            alert("输入名字为空或者为'null'，请重新输入！");  
+        if(!name || name=='null'){
+            alert("输入名字为空或者为'null'，请重新输入！");
             show_prompt();
         }
-    }  
+    }
 
     // 提交对话
     function onSubmit() {
