@@ -4,6 +4,10 @@
     <list default="true" id="0d33c884-223a-406a-a843-e0794cc266e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MongoQB" afterPath="$PROJECT_DIR$/MongoQB" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Predis" afterPath="$PROJECT_DIR$/Predis" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
     </list>
     <ignored path="workerman-chat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +72,11 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="true">
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
         <entry file="file://$PROJECT_DIR$/Predis/.editorconfig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -78,6 +86,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".php_cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Predis/.php_cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,6 +97,8 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
       <file leaf-file-name="ClientInterface.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Predis/src/ClientInterface.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -263,7 +274,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="Predis" />
+=======
+              <option name="myItemId" value="MongoQB" />
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,12 +368,20 @@
       <workItem from="1464572290669" duration="9216000" />
       <workItem from="1464587306975" duration="28733000" />
       <workItem from="1464687478587" duration="25497000" />
+<<<<<<< HEAD
       <workItem from="1465650268385" duration="1854000" />
+=======
+      <workItem from="1465650268385" duration="1618000" />
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="201718000" />
+=======
+    <option name="totallyTimeSpent" value="201482000" />
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1255" height="777" extended-state="6" />
@@ -401,6 +424,16 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Predis/tests/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
     <entry file="file://$PROJECT_DIR$/Predis/examples/replication_simple.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-356">
@@ -731,6 +764,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Predis/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -740,14 +774,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Predis/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+=======
     <entry file="file://$PROJECT_DIR$/Predis/.editorconfig">
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -755,7 +784,23 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Predis/.editorconfig">
+=======
+    <entry file="file://$PROJECT_DIR$/Predis/.gitattributes">
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Predis/.php_cs">
+=======
+    <entry file="file://$PROJECT_DIR$/Predis/.gitignore">
+>>>>>>> 65dfcad1ad4def05dd4f96279c9f0eff206003a4
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
